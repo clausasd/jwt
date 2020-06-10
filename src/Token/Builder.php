@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Lcobucci\JWT\Token;
+namespace Claus\JWT\Token;
 
 use DateTimeImmutable;
 use InvalidArgumentException;
-use Lcobucci\Jose\Parsing;
-use Lcobucci\JWT\Builder as BuilderInterface;
-use Lcobucci\JWT\Signer;
-use Lcobucci\JWT\Signer\Key;
+use Claus\Jose\Parsing;
+use Claus\JWT\Builder as BuilderInterface;
+use Claus\JWT\Signer;
+use Claus\JWT\Signer\Key;
 
 use function array_diff;
 use function array_intersect;

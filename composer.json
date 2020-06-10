@@ -1,5 +1,5 @@
 {
-    "name": "lcobucci/jwt",
+    "name": "claus/jwt",
     "description": "A simple library to work with JSON Web Token and JSON Web Signature",
     "type": "library",
     "authors": [
@@ -39,17 +39,17 @@
     },
     "autoload": {
         "psr-4": {
-            "Lcobucci\\JWT\\": "src"
+            "Claus\\JWT\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Lcobucci\\JWT\\": [
+            "Claus\\JWT\\": [
                 "test/_keys",
                 "test/unit",
                 "test/performance"
             ],
-            "Lcobucci\\JWT\\FunctionalTests\\": "test/functional"
+            "Claus\\JWT\\FunctionalTests\\": "test/functional"
         }
     },
     "config": {

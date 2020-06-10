@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Lcobucci\JWT\Validation;
+namespace Claus\JWT\Validation;
 
-use Lcobucci\JWT\Exception;
+use Claus\JWT\Exception;
 
 final class ConstraintViolation extends Exception
 {

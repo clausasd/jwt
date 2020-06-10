@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Lcobucci\JWT;
+namespace Claus\JWT;
 
 use DateTimeInterface;
-use Lcobucci\JWT\Token\DataSet;
+use Claus\JWT\Token\DataSet;
 
 interface Token
 {

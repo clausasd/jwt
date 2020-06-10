@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Lcobucci\JWT\Signer;
+namespace Claus\JWT\Signer;
 
-use Lcobucci\JWT\Signer;
+use Claus\JWT\Signer;
 
 final class None implements Signer
 {

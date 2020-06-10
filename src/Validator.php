@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Lcobucci\JWT;
+namespace Claus\JWT;
 
-use Lcobucci\JWT\Validation\Constraint;
-use Lcobucci\JWT\Validation\InvalidToken;
-use Lcobucci\JWT\Validation\NoConstraintsGiven;
+use Claus\JWT\Validation\Constraint;
+use Claus\JWT\Validation\InvalidToken;
+use Claus\JWT\Validation\NoConstraintsGiven;
 
 interface Validator
 {

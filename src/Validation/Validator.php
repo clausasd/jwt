@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Lcobucci\JWT\Validation;
+namespace Claus\JWT\Validation;
 
-use Lcobucci\JWT\Token;
+use Claus\JWT\Token;
 
-final class Validator implements \Lcobucci\JWT\Validator
+final class Validator implements \Claus\JWT\Validator
 {
     public function assert(Token $token, Constraint ...$constraints): void
     {

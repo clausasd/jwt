@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Lcobucci\JWT\Token;
+namespace Claus\JWT\Token;
 
 use DateTimeImmutable;
 use InvalidArgumentException;
 use Lcobucci\Jose\Parsing;
-use Lcobucci\JWT\Parser as ParserInterface;
-use Lcobucci\JWT\Token as TokenInterface;
+use Claus\JWT\Parser as ParserInterface;
+use Claus\JWT\Token as TokenInterface;
 
 use function array_intersect;
 use function array_keys;

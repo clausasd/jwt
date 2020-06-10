@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Lcobucci\JWT;
+namespace Claus\JWT;
 
 use Closure;
-use Lcobucci\Jose\Parsing;
-use Lcobucci\JWT\Signer\Key;
-use Lcobucci\JWT\Signer\None;
-use Lcobucci\JWT\Validation\Constraint;
+use Claus\Jose\Parsing;
+use Claus\JWT\Signer\Key;
+use Claus\JWT\Signer\None;
+use Claus\JWT\Validation\Constraint;
 
 /**
  * Configuration container for the JWT Builder and Parser

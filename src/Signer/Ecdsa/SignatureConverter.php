@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Lcobucci\JWT\Signer\Ecdsa;
+namespace Claus\JWT\Signer\Ecdsa;
 
 /**
  * Manipulates the result of a ECDSA signature (points R and S) according to the

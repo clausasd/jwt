@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Lcobucci\JWT\Signer;
+namespace Claus\JWT\Signer;
 
 use InvalidArgumentException;
-use Lcobucci\JWT\Signer;
+use Claus\JWT\Signer;
 
 use function assert;
 use function is_array;

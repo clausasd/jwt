@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Lcobucci\JWT;
+namespace Claus\JWT;
 
 use InvalidArgumentException;
-use Lcobucci\JWT\Signer\Key;
+use Claus\JWT\Signer\Key;
 
 interface Signer
 {
