@@ -5,7 +5,7 @@ namespace Claus\JWT\Token;
 
 use DateTimeImmutable;
 use InvalidArgumentException;
-use Claus\Jose\Parsing;
+use Lcobucci\Jose\Parsing;
 use Claus\JWT\Builder as BuilderInterface;
 use Claus\JWT\Signer;
 use Claus\JWT\Signer\Key;

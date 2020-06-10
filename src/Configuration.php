@@ -4,7 +4,7 @@ declare(strict_types=1);
 namespace Claus\JWT;
 
 use Closure;
-use Claus\Jose\Parsing;
+use Lcobucci\Jose\Parsing;
 use Claus\JWT\Signer\Key;
 use Claus\JWT\Signer\None;
 use Claus\JWT\Validation\Constraint;
